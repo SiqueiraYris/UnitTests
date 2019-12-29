@@ -24,7 +24,6 @@
 		C71FE862239DE8F000F3663A /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = C71FE860239DE8E800F3663A /* events.json */; };
 		C71FE868239DE92E00F3663A /* EventListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71FE867239DE92E00F3663A /* EventListInteractorMock.swift */; };
 		C71FE86A239DE94F00F3663A /* EventListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71FE869239DE94F00F3663A /* EventListViewModelTest.swift */; };
-		C71FE86C239DEEFD00F3663A /* ff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71FE86B239DEEFD00F3663A /* ff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +58,6 @@
 		C71FE860239DE8E800F3663A /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
 		C71FE867239DE92E00F3663A /* EventListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListInteractorMock.swift; sourceTree = "<group>"; };
 		C71FE869239DE94F00F3663A /* EventListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModelTest.swift; sourceTree = "<group>"; };
-		C71FE86B239DEEFD00F3663A /* ff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ff.swift; sourceTree = "<group>"; };
 		D12D93D8F9219F4774C1EF81 /* Pods-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug.xcconfig"; path = "Target Support Files/Pods-UnitTests/Pods-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -242,7 +240,6 @@
 			children = (
 				C71FE867239DE92E00F3663A /* EventListInteractorMock.swift */,
 				C71FE869239DE94F00F3663A /* EventListViewModelTest.swift */,
-				C71FE86B239DEEFD00F3663A /* ff.swift */,
 			);
 			path = EventList;
 			sourceTree = "<group>";
@@ -411,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71FE86A239DE94F00F3663A /* EventListViewModelTest.swift in Sources */,
-				C71FE86C239DEEFD00F3663A /* ff.swift in Sources */,
 				C71FE868239DE92E00F3663A /* EventListInteractorMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
